@@ -7,7 +7,8 @@ html {
 .bottom-nav, 
 .fa-times, 
 .partners, 
-footer {
+footer, 
+.bottom-txt {
   display: none;
 }
 
@@ -53,7 +54,7 @@ img {
 }
 
 .member img {
-    width: 100px;
-    height: 117px;
+    width: 110px;
+    height: 127px;
     margin-right: 1em;
 }
