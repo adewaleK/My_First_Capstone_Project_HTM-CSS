@@ -224,6 +224,7 @@ img {
   width: 100%;
   background-color: #272A31;
   color: #d3d3d3;
+  padding: 5% 0;
 }
 
 .partner-logos {
@@ -254,3 +255,25 @@ img {
   grid-template-columns: auto auto;
   margin-left: 25% ;
 }
+
+.stripe {
+  margin-left: 90px;
+}
+
+.airbnb {
+  margin-left: -120px;
+}
+
+.microsoft {
+  margin-left: 60px;
+}
+
+.amazon {
+  margin-left: -60px;
+} 
+
+.drivy {
+  margin-left: -40px;
+}
+
+
