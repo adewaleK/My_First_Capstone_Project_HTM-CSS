@@ -1,0 +1,14 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav, 
+.bottom-nav, 
+.fa-times {
+  display: none;
+}
+
+.introduction {
+    width: 100%;
+}
