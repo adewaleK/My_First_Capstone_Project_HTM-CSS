@@ -3,6 +3,12 @@ html {
   margin: 0;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'cocogoose','lato';
+}
+
 .top-nav, 
 .bottom-nav, 
 .fa-times, 
@@ -14,12 +20,66 @@ footer,
 
 .main {
     width: 100%;
-    max-width: 768px;
+    
     /* padding: 1rem .25rem; */
+}
+
+.introduction {
+  background: linear-gradient(to bottom, rgba(153, 136, 136, 0.1), rgba(161, 133, 133, 0.1)), url("../images/bg1.jpg") center no-repeat;
+  background-size: cover;
+  height: 92vh;
+  width: 100%;
+}
+
+.fa-bars {
+  padding: 10px;
+  font-size: 30px;
+  color: #272A31;
+}
+
+.welcome {
+  font-size: 2em;
+  color: #EC5242;
+  padding-left: 20px;
+}
+
+.introduction h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-top: -0.8em;
+  padding-left: 20px;
+}
+
+.about-course {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  padding: 10px;
+  color: #272A31;
+}
+
+.introduction h3 {
+  color: #272A31;
+  font-size: 2em;
+  margin-left: 1em;
+  margin-top: 10px;
+}
+
+.venue {
+  margin-left: 1.9em;
+  margin-top: -1.7em;
+  color: #272A31;
 }
 
 img {
   width: 100%;
+}
+
+.languages {
+  background-color: #272A31;
+  margin-top: -5%;
 }
 
 .lang-cards {
