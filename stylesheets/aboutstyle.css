@@ -73,6 +73,7 @@ main {
 .about-info {
   text-align: center;
   color: #272A31;
+  margin-top: 2em;
 }
 
 .introduction h3 {
@@ -80,6 +81,27 @@ main {
   font-size: 2em;
   margin-left: 1em;
   margin-top: 10px;
+}
+
+.challenge {
+  margin: 0 auto;
+  text-align: center;
+  color: #272A31;
+  line-height: 0.3em;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.algorithm .line {
+  width: 24px;
+  background-color: #EC5242;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.letter-box {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .venue {
