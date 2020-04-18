@@ -315,12 +315,13 @@ img {
 
 footer {
   width: 100%;
+  padding: 5% 0;
   
 }
 
 .footer-items {
-display: flex;
-align-items: center; 
+  display: flex;
+  align-items: center; 
 }
 
 .brand i {
@@ -432,6 +433,14 @@ align-items: center;
     text-decoration: none;
     font-size: 15px;
     color: #363F46;
+  }
+
+  .links .link-item1 {
+    padding-top: 5px;
+  }
+
+  .links .link-item1 a {
+    color: #EC5242;
   }
 
   .link-item5 {
