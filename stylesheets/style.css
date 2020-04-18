@@ -7,11 +7,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'cocogoose','lato';
+  overflow-x: hidden;
 }
 
 .top-nav, 
 .bottom-nav, 
-.fa-times, 
+ a .fa-times, 
 .bottom-txt, 
 .more {
   display: none;
@@ -83,6 +84,7 @@ img {
   margin-top: -5%;
   width: 100%;
   padding-bottom: 14px;
+  padding-top: 2px;
 }
 
 .featured {
@@ -170,11 +172,23 @@ img {
 
 .team-members {
   width: 100%;
-  padding: 5%;
+  
+  /* padding: 5%; */
 }
 
 .members {
   width: 100%;
+ 
+  
+  
+}
+
+.col-1 {
+  padding: 0 2%;
+}
+
+.col-2 {
+  padding: 0 2%;
 }
 
 .members .col-1 {
@@ -224,11 +238,12 @@ img {
   width: 100%;
   background-color: #272A31;
   color: #d3d3d3;
-  padding: 5% 0;
+  padding: 4% 0;
 }
 
 .partner-logos {
-  margin-top: 15px;
+  margin-top: 25px;
+  padding-top: 10px;
 }
 
 .first-set {
@@ -236,15 +251,18 @@ img {
   grid-template-columns: auto auto auto;
   justify-content: center;
   margin-left: 20%;
-  
-  
+   
 }
 
 .first-set img {
   width: 30%;
+  margin-bottom: 10%;
 
 }
 
+ .partners .featured-lang {
+   margin-bottom: 20px;
+ }
 .second-set img {
   width: 30%;
 
@@ -276,4 +294,49 @@ img {
   margin-left: -40px;
 }
 
+footer {
+  width: 100%;
+  
+}
 
+.footer-items {
+display: flex;
+align-items: center; 
+}
+
+.brand i {
+  font-size: 40px;
+  margin-right: 3px;
+}
+
+.company-info {
+  margin-top: -3%;
+  margin-left: -20%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin: 0 25% 0 20%;
+  color: #272A31;
+}
+
+.description p {
+  line-height: 0.5px;
+}
+
+.company-info .first {
+  margin-top: 9%;
+}
+
+.company-info p {
+  color: #363F46;
+}
+
+.company-info .gallant {
+  margin-top: -2%;
+}
+
+.description p {
+  font-weight: bold;
+}
