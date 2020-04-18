@@ -58,20 +58,19 @@ main {
   -webkit-text-fill-color: transparent; */
 
   background-color: #EC5242;
-  
   /* Create the gradient. */
    background-image: linear-gradient(
         45deg,
-        #EC5242 16.666%, 
+        #CA4246 16.666%, 
         #E16541 16.666%, 
         #E16541 33.333%, 
-        rgb(95, 84, 84) 33.333%, 
-        rgb(95, 84, 84) 50%, 
-        #EC5242 50%, 
-        #EC5242 66.666%, 
-        #EC5242 66.666%, 
-        #EC5242 83.333%, 
-        #EC5242 83.333%);
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
   
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -81,9 +80,6 @@ main {
   /* This will show the gradient as a text color rather than element bg. */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
-  
-  /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
 }
 
 .about-course {
