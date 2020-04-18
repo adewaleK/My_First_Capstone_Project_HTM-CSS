@@ -14,7 +14,8 @@ body {
 .bottom-nav, 
  a .fa-times, 
 .bottom-txt, 
-.more {
+.more, 
+.big-logos {
   display: none;
 }
 
@@ -555,6 +556,27 @@ align-items: center;
 
   .top-mg {
     margin-top: 15px !important;
+  }
+
+  .partner-logos {
+    display: none;
+  }
+
+  .big-logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .big-logos img {
+    width: 70px;
+    margin-right: 0;
+  }
+
+  .languages {
+    padding-bottom: 7%;
+    padding-top: 2%;
   }
 
 }
