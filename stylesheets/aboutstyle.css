@@ -89,7 +89,11 @@ main {
   color: #272A31;
   line-height: 0.3em;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+.algorithm {
+  padding: 5% 0 1% 0;
 }
 
 .algorithm .line {
@@ -98,6 +102,45 @@ main {
   height: 2px;
   margin: 0 auto;
 }
+
+.past-summit {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.past-summit .image {
+  width: 80%;
+  /* height: 280px; */
+  height: 12em;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.image h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.image p {
+  font-size: 20px;
+}
+
+.past-summit .image-1 {
+  background:  linear-gradient(to bottom, rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.9)), url("../images/sum1.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+  margin-bottom: 2%;
+}
+
+.past-summit .image-2 {
+  background: linear-gradient(to bottom, rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.9)), url("../images/sum2.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+  margin-bottom: 2%;
+}
+
 
 .letter-box {
   width: 80%;
@@ -124,6 +167,11 @@ img {
 
 .about-intro h1 {
   text-align: center;
+}
+
+.summit-part {
+  padding: 7% 0;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .summit {
