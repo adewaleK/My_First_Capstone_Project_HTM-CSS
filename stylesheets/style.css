@@ -343,6 +343,7 @@ footer {
 
 .description p {
   line-height: 0.5px;
+  font-weight: bold;
 }
 
 .company-info .first {
@@ -355,10 +356,6 @@ footer {
 
 .company-info .gallant {
   margin-top: -2%;
-}
-
-.description p {
-  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
