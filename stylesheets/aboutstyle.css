@@ -171,7 +171,11 @@ img {
 
 .summit-part {
   padding: 7% 0;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 0;
+}
+
+.algorithm {
+  border-top: 1px solid #d3d3d3;
 }
 
 .summit {
@@ -392,6 +396,7 @@ img {
  .partners .featured-lang {
    margin-bottom: 20px;
  }
+
 .second-set img {
   width: 30%;
 
@@ -426,7 +431,6 @@ img {
 footer {
   width: 100%;
   padding: 5% 0;
-  
 }
 
 .footer-items {
@@ -473,6 +477,70 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+   .partners {
+     display: none;
+   }
+
+  .introduction {
+    padding-top: 5%;
+  }
+
+  .summit-part {
+    width: 40%;
+    padding: 0 0 4% 0;
+    border-bottom: 100% solid #d3d3d3;
+    margin: 0 auto;
+  }
+
+  .past-summit {
+    display: none;
+  }
+
+  .past-summit-big {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .past-summit-big .image-1 {
+    width: 40%;
+    margin-right: 1%;
+    height: 10em;
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+  }
+
+  .past-summit-big .image-1-big {
+    background:  linear-gradient(to bottom, rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.9)), url("../images/sum1.jpg") center no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .past-summit-big .image-2-big {
+    background: linear-gradient(to bottom, rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.9)), url("../images/sum2.jpg") center no-repeat;
+    background-size: cover;
+    
+  }
+
+  footer {
+    background-color: #272A31;
+    width: 100%;
+    padding: 5% 0;
+   
+  }
+
+  .footer-items .brand {
+    color: #d3d3d3;
+  }
+
+  .company-info p {
+    color: #d3d3d3;
+  }
+  
   a .fa-bars {
     display: none;
   }
@@ -549,7 +617,11 @@ footer {
     padding-top: 5px;
   }
 
-  .links .link-item1 a {
+  .links .link-item2 {
+    padding-top: 5px;
+  }
+
+  .links .link-item2 a {
     color: #EC5242;
   }
 
