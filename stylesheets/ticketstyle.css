@@ -127,6 +127,11 @@ th, td {
   text-align: center;    
 }
 
+tr .value {
+  color: #EC5242;
+  font-weight: bold;
+}
+
 .bonuses {
   width: 80%;
   border: 1px solid #d3d3d3;
@@ -367,7 +372,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-top: 0;
+    padding-top: 15px;
+    height: 20px;
   }
 
   .bottom-elements .brand {
@@ -379,6 +385,7 @@ footer {
   .main-links {
     /* margin-left: -15%; */
     margin-top: -3%;
+    padding-bottom: -2%;
   }
 
   .main-links .links {
@@ -402,9 +409,18 @@ footer {
     padding-top: 5px;
   }
 
-  .links .link-item1 a {
+  .links .link-item2 {
+    padding-top: 5px;
+  }
+
+  .links .link-item3 {
+    padding-top: 5px;
+  }
+
+  .links .link-item3 a {
     color: #EC5242;
   }
+
 
   .link-item5 {
     border: 2px solid #E16541;

@@ -265,6 +265,12 @@ img {
   padding-top: 10px;
 }
 
+.partner-logos img {
+  width: 70px;
+  
+  margin-right: 0;
+}
+
 .first-set {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -573,6 +579,7 @@ footer {
 
   .big-logos img {
     width: 70px;
+    
     margin-right: 0;
   }
 
