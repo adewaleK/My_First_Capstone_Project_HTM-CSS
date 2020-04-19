@@ -134,6 +134,19 @@ th, td {
   margin-bottom: 10px;
 }
 
+.more-options {
+  margin: 5% auto;
+  background-color: #EC5242;
+  width: 30%;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.more-options a {
+  color: #d3d3d3;
+  text-decoration:none ;
+}
+
 .menu {
   margin-right: 5%;
 }
