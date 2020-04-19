@@ -127,6 +127,37 @@ th, td {
   text-align: center;    
 }
 
+.bonuses {
+  width: 80%;
+  border: 1px solid #d3d3d3;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin-right: 5%;
+}
+
+.bonus-head {
+  background-color: #d3d3d3;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.2px 0;
+  border: 1px solid #d3d3d3;
+}
+
+.bonus-head p {
+  text-align: center;
+}
+
+.bonus-body {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 4%;
+}
+
 .fa-bars {
   padding: 10px;
   font-size: 30px;
