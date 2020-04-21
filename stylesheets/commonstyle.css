@@ -61,6 +61,7 @@ main {
 .intro-text {
   width: 75%;
   padding-top: 50px; 
+  
 }
 
 .stripe {
@@ -172,6 +173,10 @@ footer {
   .bottom-nav {
     display: block;
     width: 100vw;
+  }
+
+  .bottom-nav {
+    margin-top: 5px;
   }
 
   .top-nav {
