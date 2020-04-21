@@ -204,62 +204,6 @@
   padding: 4% 0;
 }
 
-.partner-logos {
-  margin-top: 25px;
-  padding-top: 10px;
-}
-
-.partner-logos img {
-  width: 70px;
-  
-  margin-right: 0;
-}
-
-.first-set {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  margin-left: 20%;
-   
-}
-
-.first-set img {
-  width: 30%;
-  margin-bottom: 10%;
-
-}
-
-.second-set img {
-  width: 30%;
-
-}
-
-.second-set {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 25% ;
-}
-
-.stripe {
-  margin-left: 90px;
-}
-
-.airbnb {
-  margin-left: -120px;
-}
-
-.microsoft {
-  margin-left: 60px;
-}
-
-.amazon {
-  margin-left: -60px;
-} 
-
-.drivy {
-  margin-left: -40px;
-}
-
 footer {
   width: 100%;
   padding: 5% 0;
@@ -503,14 +447,29 @@ footer {
   .big-logos {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    width: 45%;
+    width: 80%;
     margin: 0 auto;
   }
 
+
   .big-logos img {
     width: 70px;
-    
-    margin-right: 0;
+  }
+  
+  .log2 img {
+    margin-right: 8%;
+    margin-top: 15%;
+  }
+
+  .log3 img {
+    margin-right: 8%;
+    margin-top: 8%;
+  
+  }
+
+  .log5 img {
+    margin-right: 8%;
+    margin-top: 21%;
   }
 
   .languages {
