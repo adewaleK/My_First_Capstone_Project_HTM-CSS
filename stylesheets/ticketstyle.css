@@ -3,8 +3,24 @@
 }
 
 .ticket-space {
-  padding-top: 15px;
-  padding-bottom: 6%;
+  padding-top: 5%;
+  padding-bottom: 8%;
+ 
+}
+
+.introduction {
+  background: #f7f7f7;
+  width: 100%;
+  position: relative;
+  padding-bottom: 4%;
+}
+
+.fa-bars {
+  display: block;
+  padding: 10px;
+  font-size: 30px;
+  color: #272A31;
+  z-index: 1000;
 }
 
 .select {
@@ -56,7 +72,7 @@
   height: 0;
   border: 5px solid transparent;
   border-top-color: #EC5242;
-}
+} 
 
 .s1 {
   display: flex;
@@ -84,19 +100,24 @@
 }
 
 table {
-  margin: 0 auto;
+  margin: 3% auto;
 }
 
 .t-head {
-  background-color: #DBA58A;
+  background-color: #f7f7f7;
 }
 
 table, th, td {
   border: 1px solid #d3d3d3;
   border-collapse: collapse;
 }
+
+td {
+  background-color: #fff;
+}
+
 th, td {
-  padding: 5px;
+  padding: 10px;
   text-align: center;    
 }
 
@@ -104,6 +125,45 @@ tr .value {
   color: #EC5242;
   font-weight: bold;
 }
+
+/* .diamond1 {
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-bottom-color: #EC5242;
+  
+  top: -25px;
+} */
+
+.kite img {
+  position: absolute;
+  top: 93%;
+  left: 46%;
+}
+
+.special {
+  margin-top: 5%;
+}
+
+.introduction i.new {
+  position: absolute;
+  top: 98.7%;
+  left: 48.4%;
+  z-index: 100;
+  color: #fff;
+}
+
+.diamond1:after {
+  content: '';
+  position: absolute;
+  left: -25px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: #EC5242;
+}
+
 
 .bonuses {
   width: 80%;
@@ -156,12 +216,17 @@ tr .value {
 }
 
 @media screen and (min-width: 768px) {
+  a .fa-bars {
+    display: none;
+  }
+
   .top-elements div {
     margin-right: 15px;
   }
 
   .ticket-home {
     padding-top: 15px;
+    /* padding-bottom: 3%; */
     height: 20px;
   }
 
