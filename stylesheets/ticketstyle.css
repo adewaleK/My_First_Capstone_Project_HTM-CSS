@@ -13,6 +13,11 @@
   width: 100%;
   position: relative;
   padding-bottom: 4%;
+  margin-top: -1.3%;
+}
+
+.select h3 {
+  padding-top: 4%;
 }
 
 .fa-bars {
@@ -21,6 +26,8 @@
   font-size: 30px;
   color: #272A31;
   z-index: 1000;
+  margin-left: 4px;
+  margin-top: 7px;
 }
 
 .select {
@@ -126,15 +133,6 @@ tr .value {
   font-weight: bold;
 }
 
-/* .diamond1 {
-  width: 0;
-  height: 0;
-  border: 25px solid transparent;
-  border-bottom-color: #EC5242;
-  
-  top: -25px;
-} */
-
 .kite img {
   position: absolute;
   top: 93%;
@@ -142,15 +140,12 @@ tr .value {
 }
 
 .special {
-  margin-top: 5%;
+  margin: 5% auto;
+  margin-bottom: 0;
 }
 
-.introduction i.new {
-  position: absolute;
-  top: 98.7%;
-  left: 48.4%;
-  z-index: 100;
-  color: #fff;
+.special h3 {
+  margin-top: 4%;
 }
 
 .diamond1:after {
@@ -220,14 +215,21 @@ tr .value {
     display: none;
   }
 
+  /* .select {
+    margin-top: 5%;
+    margin-left: -1.3%;
+  } */
+
+  
+
   .top-elements div {
     margin-right: 15px;
   }
 
   .ticket-home {
-    padding-top: 15px;
-    /* padding-bottom: 3%; */
-    height: 20px;
+    /* padding-top: 15px;
+    padding-bottom: 5px;  
+    height: 5px !important; */
   }
 
   .links .link-item1 {
