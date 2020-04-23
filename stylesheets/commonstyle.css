@@ -44,6 +44,8 @@ main {
   background-color: #fff;
   padding: 10px;
   color: #272A31;
+  font-size: 17px;
+  line-height: 22px;
 }
 
 .featured-head h3 {
@@ -139,8 +141,6 @@ main {
   margin-top: -10%;
   width: 30%;
 }
-
-
 
 footer {
   width: 100%;

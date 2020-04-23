@@ -27,7 +27,7 @@
   color: #272A31;
   z-index: 1000;
   margin-left: 4px;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .select {
@@ -51,12 +51,12 @@
   display: flex;
   margin: 3% auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid #d3d3d3;
-  width: 60%;
+  width: 60%; 
   height: 30px;
   border-radius: 50px;
-  padding: 0 2%;
+  padding: 0.5% 3%; 
 }
 
 
@@ -90,6 +90,7 @@
 
 .s1-txt {
   color: #EC5242;
+  margin-right: 2%;
 }
 
 .move {
@@ -97,8 +98,8 @@
 }
 
 .step-details {
-  margin-left: 2%;
   color: #363F46;
+  font-size: 14px;
 }
 
 .ticket-data {
@@ -108,6 +109,7 @@
 
 table {
   margin: 3% auto;
+  width: 70%;
 }
 
 .t-head {
@@ -215,22 +217,13 @@ tr .value {
     display: none;
   }
 
-  /* .select {
-    margin-top: 5%;
-    margin-left: -1.3%;
-  } */
-
-  
-
   .top-elements div {
     margin-right: 15px;
   }
 
-  .ticket-home {
-    /* padding-top: 15px;
-    padding-bottom: 5px;  
-    height: 5px !important; */
-  }
+ .step-details {
+   font-size: 16px;
+ }
 
   .links .link-item1 {
     padding-top: 5px;
@@ -247,4 +240,17 @@ tr .value {
   .links .link-item3 a {
     color: #EC5242;
   }
+
+  footer {
+    background: #f7f7f7;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .step-details {
+    margin-left: 3%;
+    font-size: 13px;
+
+  }
+
 }
