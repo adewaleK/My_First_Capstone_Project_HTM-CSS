@@ -81,8 +81,9 @@
 }
 
 .lang-cards {
+  display: flex;
+  flex-direction: row;
   display: table;
-  flex-direction: column;
   margin: 0 auto;
   width: 95%;
 }
@@ -348,11 +349,11 @@ footer {
   }
 
   .welcome {
-    margin-bottom: 4%;
+    margin-bottom: 5%;
   }
 
   .intro-text h2, .intro-text h1 {
-    margin-left: 2%;
+    margin-left: 0.8%;
   }
 
   .program-container {
@@ -362,6 +363,8 @@ footer {
   }
 
   .lang-cards {
+    display: flex;
+    flex-direction: column;
     display: table;
     border-collapse: separate; border-spacing: 4px 0;
     padding: 0 20px;
