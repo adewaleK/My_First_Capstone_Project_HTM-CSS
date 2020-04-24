@@ -50,9 +50,15 @@
   </header>
   <main>
     <section class="introduction intro-space">
+      <ul class="mobile-nav" id="mylinks">
+        <li><a href="index.html">index</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="tickets.html">tickets</a></li>
+        <li><a href="tickets.html">Enroll</a></li> 
+      </ul>
       <nav class="small-nav">
         <div class="menu-toggle">
-          <a href="#"><i class="fas fa-bars"></i></a>
+          <a href="#" onclick="myFunction()"><i class="fas fa-bars"></i></a>
           <a href="#"><i class="fas fa-times"></i></a>
         </div>
       </nav>
@@ -163,6 +169,18 @@
         <p class="gallant">Gallant Coding Academy provides you with the best software engineering trainings.</p>
       </div>
    </div>
+
+   <script>
+    function myFunction() {
+      var links = document.getElementById("mylinks");
+      if (links.style.display === "block") {
+            links.style.display = "none";
+          } 
+            else {
+            links.style.display = "block";
+          }
+    }
+    </script>
   </footer>
 </body>
 </html>

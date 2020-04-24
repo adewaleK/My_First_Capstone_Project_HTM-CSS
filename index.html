@@ -7,6 +7,10 @@
   <script src="https://kit.fontawesome.com/7290f27402.js"crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheets/commonstyle.css">
   <link rel="stylesheet" href="stylesheets/style.css">
+  <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
   <script
   src="https://kit.fontawesome.com/7290f27402.js"
   crossorigin="anonymous"
@@ -34,7 +38,7 @@
               <div class="description"><p>Gallant</p> <p>Academy</p></div>
             </div>
             <div class="main-links">
-              <div class="links">
+              <div class="links" id="links">
                 <div class="link-item1"><a href="index.html">Home</a></div>
                 <div class="link-item"><a href="about.html">About</a></div>
                 <div class="link-item"><a href="tickets.html">Tickets</a></div>
@@ -47,10 +51,17 @@
   </header>
   <main>
     <section class="introduction home-space">
+
+      <ul class="mobile-nav" id="mylinks">
+        <li><a href="index.html">index</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="tickets.html">tickets</a></li>
+        <li><a href="tickets.html">Enroll</a></li> 
+      </ul>
       <nav class="small-nav">
         <div class="menu-toggle">
-          <a href="#"><i class="fas fa-bars"></i></a>
-          <a href="#"><i class="fas fa-times"></i></a>
+          <a href="#" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+          <!-- <a href="#"><i class="fas fa-times" id="cancel"></i></a> -->
         </div>
       </nav>
       <div class="intro-text">
@@ -151,7 +162,6 @@
           </div>
         </div>
       </div>
-
       <div class="row">
         <div class="member ">
           <div class="picture"><img src="images/m1.jpg" alt="member-3"></div>
@@ -232,5 +242,19 @@
       </div>
    </div>
   </footer>
+
+  <script>
+    <script src="myScript.js"></script>
+
+    function myFunction() {
+      var links = document.getElementById("mylinks");
+      if (links.style.display === "block") {
+            links.style.display = "none";
+          } 
+            else {
+            links.style.display = "block";
+          }
+    }
+    </script>
 </body>
 </html>

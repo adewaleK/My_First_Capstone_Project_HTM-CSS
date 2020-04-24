@@ -17,6 +17,7 @@ body {
   display: none;
  }
 
+
  header {
   width: 100px;
 }
@@ -31,10 +32,44 @@ main {
   width: 100%;
 }
 
+#mylinks {
+  display: none;
+}
+
+.mobile-nav {
+  background-color: #fff;
+  width: 85%;
+  height: 100vh;
+  padding-top: 10%;
+  position: fixed;
+  margin-top: -3%;
+  top: 0;
+  left: 0;
+}
+
+.mobile-nav li {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10%;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #272A31;
+}
+
+.mobile-nav a:hover {
+  color: #E16541;
+}
+
 .fa-bars {
-  padding: 10px;
+  position: fixed;
+  right: 1%;
+  padding: 15px;
   font-size: 30px;
   color: #272A31;
+  display: none;
 }
 
 .about-course {
