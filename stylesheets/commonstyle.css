@@ -46,6 +46,12 @@ main {
   z-index: 1000;
 }
 
+.t-style {
+  border: 2px solid #ec5242;
+  padding: 1%;
+  width: 10%;
+}
+
 .mobile-nav li {
   list-style: none;
   text-decoration: none;
