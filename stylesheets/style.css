@@ -90,7 +90,11 @@
 }
 
 .intro-text {
-  margin-left: 100px;
+  margin-left: 50px;
+}
+
+.intro-text h2 {
+  margin-bottom: 10%;
 }
 
 .program {
@@ -333,6 +337,10 @@ footer {
   .intro-text {
     width: 75%;
     padding-top: 50px;
+  }
+
+  .intro-text h2 {
+    margin-bottom: 5%;
   }
 
   .welcome {
