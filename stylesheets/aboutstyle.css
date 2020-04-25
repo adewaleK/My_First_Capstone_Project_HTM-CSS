@@ -5,7 +5,10 @@
 .intro-space {
   padding-bottom: 5%;
   padding-top: 5%;
-  /* margin-top: -5%; */
+}
+
+.intro-space h4 {
+  display: none;
 }
 
 .about-intro {
@@ -95,7 +98,6 @@
   padding-top: 12%;
   margin-bottom: 2%;
 }
-
 
 .letter-box {
   width: 80%;
@@ -213,7 +215,6 @@ img {
   .past-summit-big .image-1-big {
     background:  linear-gradient(to bottom, rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.9)), url("../images/sum1.jpg") center no-repeat;
     background-size: cover;
-    
   }
   
   .past-summit-big .image-2-big {

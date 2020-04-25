@@ -1,4 +1,5 @@
-.bottom-txt {
+.bottom-txt,
+.home-space h4 {
   display: none;
 }
 
@@ -8,7 +9,7 @@
 
 .welcome {
   font-size: 2em;
-  color: #EC5242;
+  color: #ec5242;
   padding-left: 20px;
   margin-bottom: 7%;
 }
@@ -20,27 +21,29 @@
   line-height: 1em;
   margin-top: -0.8em;
   padding-left: 20px;
-  background-color: #EC5242;
-  background-image: linear-gradient(
-        45deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);
+  background-color: #ec5242;
+  background-image:
+    linear-gradient(
+      45deg,
+      #ca4246 16.666%,
+      #e16541 16.666%,
+      #e16541 33.333%,
+      #f18f43 33.333%,
+      #f18f43 50%,
+      #8b9862 50%,
+      #8b9862 66.666%,
+      #476098 66.666%,
+      #476098 83.333%,
+      #a7489b 83.333%
+    );
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }
 
 .introduction h3 {
-  color: #272A31;
+  color: #272a31;
   font-size: 2em;
   margin-left: 1em;
   margin-top: 10px;
@@ -49,14 +52,14 @@
 .venue {
   margin-left: 1.9em;
   margin-top: -1.7em;
-  color: #272A31;
+  color: #272a31;
 }
 
 .languages {
-  background-color: #272A31;
+  background-color: #272a31;
   width: 100%;
   padding-bottom: 20px;
-  padding-top: 2px; 
+  padding-top: 2px;
   margin: 0 auto;
 }
 
@@ -64,25 +67,23 @@
   margin-bottom: 5%;
 }
 
-.featured-head .line{
+.featured-head .line {
   width: 35px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   height: 2px;
   margin: 0 auto;
   margin-top: -10px;
 }
 
 .f-color {
-  color: #d3d3d3; 
+  color: #d3d3d3;
 }
 
 .t-color {
-  color: #272A31;
+  color: #272a31;
 }
 
 .lang-cards {
-  display: flex;
-  flex-direction: row;
   display: table;
   margin: 0 auto;
   width: 95%;
@@ -96,7 +97,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #363F46;
+  background-color: #363f46;
   margin-bottom: 10px;
   height: 80px;
   padding-right: 3%;
@@ -109,7 +110,7 @@
 }
 
 .program .title {
-  color: #EC5242;
+  color: #ec5242;
   min-width: 100px;
   margin-right: 25px;
 }
@@ -123,7 +124,7 @@
 .join-box {
   width: 60%;
   margin: 15px auto;
-  background-color: #EC5242;;
+  background-color: #ec5242;
   padding: 30px 10px;
   text-align: center;
 }
@@ -141,26 +142,9 @@
 .row {
   display: grid;
   grid-template-columns: auto;
-  /* padding-left: 15px; */
   width: 95%;
   margin: 0 auto;
-  
 }
-
-.members .col-1 {
-  display: flex;
-  flex-direction: column;
-  padding: 0 2%;
-  align-items: center;
-
-}
-
-.members .col-2 {
-    display: flex;
-    flex-direction: column;
-    padding: 0 2%;
-    align-items: center;
-  }
 
 .member {
   display: flex;
@@ -186,7 +170,7 @@
 }
 
 .role {
-  color: #EC5242;
+  color: #ec5242;
   font-style: italic;
   margin-top: -12px;
 }
@@ -199,14 +183,14 @@
 }
 
 .member-info {
-  color: #272A31;
+  color: #272a31;
   font-size: 17px;
   line-height: 20px;
 }
 
 .partners {
   width: 100%;
-  background-color: #272A31;
+  background-color: #272a31;
   color: #d3d3d3;
   padding: 4% 0;
 }
@@ -219,7 +203,7 @@ footer {
 
 .footer-items {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .brand i {
@@ -236,7 +220,7 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 25% 0 20%;
-  color: #272A31;
+  color: #272a31;
 }
 
 .description p {
@@ -249,7 +233,7 @@ footer {
 }
 
 .company-info p {
-  color: #363F46;
+  color: #363f46;
 }
 
 .company-info .gallant {
@@ -257,19 +241,18 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
   a .fa-bars {
     display: none;
   }
 
-  .top-nav, 
+  .top-nav,
   .bottom-nav {
     display: block;
     width: 100vw;
   }
 
   .top-nav {
-    background-color: #272A31;
+    background-color: #272a31;
   }
 
   .container {
@@ -320,10 +303,14 @@ footer {
     margin-left: 40px;
   }
 
+  .bottom-txt a {
+    color: #d3d3d3;
+  }
+
   .main-links .links a {
     text-decoration: none;
     font-size: 15px;
-    color: #363F46;
+    color: #363f46;
   }
 
   .links .link-item1 {
@@ -331,11 +318,11 @@ footer {
   }
 
   .links .link-item1 a {
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .link-item5 {
-    border: 2px solid #E16541;
+    border: 2px solid #e16541;
     padding: 5px 7px;
   }
 
@@ -352,27 +339,26 @@ footer {
     margin-bottom: 5%;
   }
 
-  .intro-text h2, .intro-text h1 {
+  .intro-text h2, 
+  .intro-text h1 {
     margin-left: 0.8%;
   }
 
   .program-container {
     width: 100vw;
-    margin: 0 auto !important;
-    
+    margin: 0 auto;
   }
 
   .lang-cards {
-    display: flex;
-    flex-direction: column;
     display: table;
-    border-collapse: separate; border-spacing: 4px 0;
+    border-collapse: separate; 
+    border-spacing: 4px 0;
     padding: 0 20px;
-    margin-top: 20px;
     margin: 0 auto;
+    margin-top: 20px;
     width: 90%;
   }
-  
+
   .program {
     display: table-cell;
     text-align: center;
@@ -402,13 +388,9 @@ footer {
   }
 
   .bottom-txt {
-    display: block; 
+    display: block;
     text-align: center;
     margin-top: 3%;
-  }
-
-  .bottom-txt a {
-    color: #d3d3d3;
   }
 
   .title p {
@@ -445,20 +427,11 @@ footer {
   }
 
   .member-info {
-    color: #272A31;
+    color: #272a31;
     font-size: 1em;
     line-height: 17px;
   }
-
-  .col-1 {
-    width: 50%;
-    box-sizing: border-box;
-  }
-
-  .col-2 {
-    width: 50%;
-    box-sizing: border-box;
-  }
+  
   .row {
     display: flex;
     flex-direction: row;
@@ -470,7 +443,7 @@ footer {
 
   .member {
     width: 50%;
-  } 
+  }
 
   .right-mg {
     margin-right: 2%;
@@ -479,7 +452,7 @@ footer {
   .top-mg {
     margin-top: 15px !important;
   }
-  
+
   .partner-logos {
     display: none;
   }
@@ -495,7 +468,7 @@ footer {
   .big-logos img {
     width: 70px;
   }
-  
+
   .log2 img {
     margin-right: 8%;
     margin-top: 15%;
@@ -504,7 +477,6 @@ footer {
   .log3 img {
     margin-right: 8%;
     margin-top: 8%;
-  
   }
 
   .log5 img {

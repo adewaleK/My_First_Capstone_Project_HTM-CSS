@@ -4,8 +4,7 @@
 
 .ticket-space {
   padding-top: 5%;
-  padding-bottom: 8%;
- 
+  padding-bottom: 8%; 
 }
 
 .introduction {
@@ -14,6 +13,10 @@
   position: relative;
   padding-top: 5%;
   padding-bottom: 4%;
+}
+
+.introduction h4 {
+  display: none;
 }
 
 .select h3 {
@@ -59,7 +62,6 @@
   padding: 0.5% 3%; 
 }
 
-
 .diamond {
   width: 0;
   height: 0;
@@ -67,7 +69,6 @@
   border-bottom-color: #EC5242;
   position: relative;
   top: -5px;
-  
 }
 
 .diamond:after {
@@ -161,7 +162,6 @@ tr .value {
   border-top-color: #EC5242;
 }
 
-
 .bonuses {
   width: 80%;
   border: 1px solid #d3d3d3;
@@ -222,11 +222,7 @@ tr .value {
   }
 
  .step-details {
-   font-size: 16px;
- }
-
- .links {
-   
+    font-size: 16px;
  }
 
   .links .link-item1 {
@@ -254,7 +250,5 @@ tr .value {
   .step-details {
     margin-left: 3%;
     font-size: 13px;
-
   }
-
 }
