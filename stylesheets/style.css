@@ -3,6 +3,12 @@
   display: none;
 }
 
+.t-style {
+  border: 2px solid #ec5242;
+  padding: 1%;
+  width: 10%;
+}
+
 .home-space {
   padding-bottom: 5%;
 }
@@ -339,7 +345,7 @@ footer {
     margin-bottom: 5%;
   }
 
-  .intro-text h2, 
+  .intro-text h2,
   .intro-text h1 {
     margin-left: 0.8%;
   }
@@ -351,7 +357,7 @@ footer {
 
   .lang-cards {
     display: table;
-    border-collapse: separate; 
+    border-collapse: separate;
     border-spacing: 4px 0;
     padding: 0 20px;
     margin: 0 auto;
@@ -431,7 +437,7 @@ footer {
     font-size: 1em;
     line-height: 17px;
   }
-  
+
   .row {
     display: flex;
     flex-direction: row;
