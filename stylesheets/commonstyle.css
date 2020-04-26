@@ -11,7 +11,6 @@ body {
 
 .top-nav,
 .bottom-nav,
-a .fa-times,
 .big-logos {
   display: none;
 }
@@ -44,6 +43,13 @@ main {
   top: 0;
   left: 0;
   z-index: 1000;
+}
+
+.mobile-nav .fa-times {
+  float: right;
+  margin-right: 5%;
+  padding: 1% 2%; 
+  border: 2px solid #ec5242;
 }
 
 .t-style {
