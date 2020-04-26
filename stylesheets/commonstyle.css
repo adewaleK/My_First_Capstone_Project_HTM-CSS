@@ -36,7 +36,7 @@ main {
 
 .mobile-nav {
   background-color: #fff;
-  width: 85%;
+  width: 100%;
   height: 100vh;
   padding-top: 10%;
   position: fixed;
