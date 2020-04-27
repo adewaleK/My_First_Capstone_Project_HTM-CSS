@@ -144,8 +144,10 @@
 }
 
 .row {
-  display: grid;
-  grid-template-columns: auto;
+  /* display: grid;
+  grid-template-columns: auto; */
+  display: flex;
+  flex-direction: column;
   width: 95%;
   margin: 0 auto;
 }
