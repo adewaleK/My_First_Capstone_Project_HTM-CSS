@@ -76,7 +76,7 @@ main {
 
 .fa-bars {
   position: fixed;
-  right: 1%;
+  left: 1%;
   padding: 15px;
   font-size: 30px;
   color: #272a31;
