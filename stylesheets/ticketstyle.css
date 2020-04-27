@@ -245,7 +245,7 @@ tr .value {
   }
 }
 
-@media only screen and (min-device-width : 1224px) {
+@media only screen and (min-device-width: 1224px) {
   .kite img {
     position: absolute;
     top: 95%;

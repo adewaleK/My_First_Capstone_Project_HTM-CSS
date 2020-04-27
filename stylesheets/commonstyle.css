@@ -3,6 +3,11 @@ html {
   margin: 0;
 }
 
+@font-face {
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: lato;
+}
+
 body {
   font-family: lato;
   padding: 0;
@@ -13,16 +18,6 @@ body {
 @font-face {
   src: url(../fonts/Cocogoose\ Pro\ Light-trial.ttf);
   font-family: coco;
-}
-
-@font-face {
-  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
-  font-family: coco1;
-}
-
-@font-face {
-  src: url(../fonts/Lato-Regular.ttf);
-  font-family: lato;
 }
 
 .top-nav,

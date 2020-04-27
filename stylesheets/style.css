@@ -1,3 +1,8 @@
+@font-face {
+  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
+  font-family: coco1;
+}
+
 .bottom-txt,
 .home-space h4 {
   display: none;

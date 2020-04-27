@@ -22,6 +22,11 @@
   margin-bottom: 6%;
 }
 
+@font-face {
+  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
+  font-family: coco1;
+}
+
 .introduction h1 {
   font-size: 2.5em;
   font-weight: bold;
